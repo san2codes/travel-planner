@@ -56,7 +56,20 @@
 
   font-weight: 500;
 }
+.trip-form-group select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #475569;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 15px;
+}
 
+.trip-form-group select option {
+  background: #1e293b;
+  color: white;
+}
 .trip-form-group input,
 .trip-form-group select {
   width: 100%;
