@@ -1,0 +1,138 @@
+.dashboard-page {
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+
+  padding: 30px;
+}
+
+.dashboard-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 40px;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.dashboard-header h1 {
+  color: white;
+
+  margin-bottom: 8px;
+}
+
+.dashboard-header p {
+  color: #cbd5e1;
+}
+
+.header-actions {
+  display: flex;
+
+  gap: 10px;
+}
+
+.create-btn,
+.logout-btn,
+.view-btn,
+.delete-btn {
+  border: none;
+
+  padding: 12px 18px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-weight: 600;
+}
+
+.create-btn {
+  background: #0ea5e9;
+
+  color: white;
+}
+
+.logout-btn {
+  background: #ef4444;
+
+  color: white;
+}
+
+.view-btn {
+  background: #22c55e;
+
+  color: white;
+
+  flex: 1;
+}
+
+.delete-btn {
+  background: #ef4444;
+
+  color: white;
+
+  flex: 1;
+}
+
+.trip-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+
+  gap: 25px;
+}
+
+.trip-card {
+  background: rgba(255, 255, 255, 0.08);
+
+  backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 18px;
+
+  padding: 20px;
+
+  transition: 0.3s;
+}
+
+.trip-card:hover {
+  transform: translateY(-5px);
+}
+
+.trip-card h2 {
+  color: white;
+
+  margin-bottom: 20px;
+}
+
+.trip-info {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  color: #cbd5e1;
+
+  margin-bottom: 20px;
+}
+
+.trip-actions {
+  display: flex;
+
+  gap: 10px;
+}
+
+.empty-state {
+  text-align: center;
+
+  color: white;
+
+  margin-top: 80px;
+}
